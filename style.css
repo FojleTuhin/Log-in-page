@@ -1,14 +1,110 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: whitesmoke;
 }
 
-.container{
+.container {
     margin: 60px;
     border: 2px solid gray;
     height: 80vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #f0f2f5;
 }
+
+.left-part {
+  
+    display: flex;
+    align-items: center;
+}
+
+.left-part .title{
+    margin: 100px;
+}
+
+.left-part .title h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: -50px;
+}
+
+.left-part .title p{
+    font-weight: 400;
+}
+
+ h1, .forgot{
+    color: #1877f2;
+}
+
+.right-part{
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.IN{
+    width:300px;
+    height:40px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+input:focus{
+    border: 1px solid #1877f2;
+    outline: none;
+    border-radius: 5px;
+}
+
+.forgot{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+hr{
+    
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.create-account{
+    width: 200px;
+   margin:0 auto;
+   text-align: center;
+}
+.create{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color:#42b72a;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.for-mid{
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 
+}
+
+
