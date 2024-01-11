@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    margin: 60px;
+    border: 2px solid gray;
+    height: 80vh;
+}
