@@ -132,20 +132,3 @@ hr{
     
 }
 
-@media screen  and (min-width:576px) and (max-width:800){
-    .container{
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .left-part .title h1{
-        
-        margin-top: 150px;
-        
-    }
-
-    .left-part .title p{
-        display: none;
-    }
-    
-}
