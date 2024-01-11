@@ -4,18 +4,15 @@
 }
 
 body {
-    background-color: whitesmoke;
-}
-
-.container {
-    margin: 60px;
-    height: 100vh;
-    display: flex;
     background-color: #f0f2f5;
 }
 
+.container {
+    margin: 100px;
+    display: flex;
+}
+
 .left-part {
-  
     display: flex;
     align-items: center;
 }
